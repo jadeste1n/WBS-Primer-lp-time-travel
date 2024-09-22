@@ -1,0 +1,170 @@
+header {
+    background-color:rgb(42, 37, 42);
+    background-image: url(https://t4.ftcdn.net/jpg/02/75/26/57/360_F_275265725_zEBiDA8Rvi0ahc2sbKpdHbwkH61iHuR7.jpg);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px;
+    padding-bottom: 100px;
+}
+
+main {
+    position: relative;
+}
+
+.search {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -60px;
+}
+
+.search-wrapper {
+    width: 90%;
+}
+
+.search-wrapper-red {
+    border: solid, red, 2px;
+    border-radius: 8px;
+    background-color: red;
+}
+
+.search-wrapper-orange {
+    border: solid, orange, 2px;
+    border-radius: 8px;
+    background-color: orange;
+}
+
+.search-wrapper-yellow {
+    border: solid, yellow, 2px;
+    border-radius: 8px;
+    background-color: yellow;
+}
+
+.search-wrapper-green {
+    border: solid, rgb(73, 191, 73), 2px;
+    border-radius: 8px;
+    background-color:rgb(73, 191, 73);
+}
+
+.search-wrapper-blue {
+    border: solid, rgb(25, 157, 245), 2px;
+    border-radius: 8px;
+    background-color:rgb(25, 157, 245);
+    
+}
+
+.search-form {
+    background-color:rgb(229, 229, 234);
+    border-radius: 4px;
+    height: 100px;
+}
+
+.catalogue {
+    background-color: rgb(33, 32, 35);
+    padding-top: 120px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right:40px;
+}
+
+.offers {
+    display: flex;
+    width: 100%;
+}
+
+
+h1, h2, h1+p  {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+
+.catalogue>h2 {
+    margin-bottom: 40px;
+}
+
+.services {
+    width: 25%;
+    background-color: rgb(23, 22, 22);
+    margin-right: 40px;
+    position: sticky;
+    height: auto;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.services-wrapper {
+
+}
+
+.offers-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    width: 75%;
+}
+
+.offer-wrapper {
+    background-color: rgb(229, 229, 234);
+    border-radius: 2px;
+    overflow: hidden;
+    padding: 16px;
+}
+
+
+.preview-image {
+    overflow: hidden;
+    filter: grayscale(100);
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 2px;
+}
+
+.img {
+    object-fit: cover;
+    width: auto;
+    height: auto;
+}
+
+.snippet {
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-details {
+   background-color: rgb(31, 28, 35);
+   color: white;
+   display:inline-block;
+   margin-top: auto;
+   border-radius: 24px;
+   padding-left:12px;
+   padding-right: 12px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+
+footer {
+ display: flex;
+ justify-content: center;
+ background-color: black;
+ padding: 40px;
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 12px;
+}
